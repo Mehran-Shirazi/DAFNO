@@ -2,8 +2,12 @@
 
 This repository provides a modular and scalable **PyTorch Lightning** implementation of the **Domain-Agnostic Fourier Neural Operator (DAFNO)**, originally proposed by Liu *et al.* in NeurIPS 2023. It extends the standard Fourier Neural Operator (FNO) framework to support **irregular geometries**, **evolving domains**, and **topology changes**, while maintaining the efficiency of FFT-based operations.
 
-> ✅ This reimplementation refactors the official DAFNO codebase using PyTorch Lightning for better modularity, readability, and experiment tracking.
-
+> This reimplementation refactors the official DAFNO codebase using PyTorch Lightning for better modularity, readability, and experiment tracking.
+> 
+> ✅ This work builds upon the original implementation by **Ning Liu**, published in the paper:  
+> 📄 *"Fourier Neural Operator with Geometry-aware Input Mapping"*  
+> [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/940a7634dab556b67af15bacd337f7db-Abstract-Conference.html)
+>
 ---
 
 ## 🧠 What is DAFNO?
@@ -15,16 +19,6 @@ DAFNO (Domain-Agnostic Fourier Neural Operator) is a neural operator that solves
 - ✔️ Compatible with **irregular grids**, **voids**, and **fractures**
 - ✔️ High generalizability to **unseen geometries and load conditions**
 - ✔️ Efficient via **FFT acceleration** and **integral kernel structure**
-
----
-
-## 📄 Reference Paper
-
-**Domain Agnostic Fourier Neural Operators**  
-*Ning Liu, Siavash Jafarzadeh, Yue Yu*  
-[NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/940a7634dab556b67af15bacd337f7db-Abstract-Conference.html)
-
-> *"To lift the restriction of FFT to rectangular grids, DAFNO incorporates a smoothed characteristic function to model PDEs on arbitrary and evolving domains."*
 
 ---
 
