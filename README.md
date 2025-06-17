@@ -1,6 +1,6 @@
 # Domain-Agnostic Fourier Neural Operator (DAFNO) – PyTorch Lightning Version
 
-This repository provides a modular and scalable **[PyTorch Lightning](https://www.pytorchlightning.ai/)** implementation of the **[Domain-Agnostic Fourier Neural Operator (DAFNO)](https://github.com/ningliu-iga/DAFNO?tab=readme-ov-file)**, originally proposed by Liu *et al.* in [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/940a7634dab556b67af15bacd337f7db-Abstract-Conference.html). It extends the standard Fourier Neural Operator (FNO) framework to support **irregular geometries**, **evolving domains**, and **topology changes**, while maintaining the efficiency of FFT-based operations.
+This repository provides a modular and scalable **[PyTorch Lightning](https://www.pytorchlightning.ai/)** implementation of the **[DAFNO](https://github.com/ningliu-iga/DAFNO?tab=readme-ov-file)**, originally proposed by Liu *et al.* in [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/940a7634dab556b67af15bacd337f7db-Abstract-Conference.html). It extends the standard Fourier Neural Operator (FNO) framework to support **irregular geometries**, **evolving domains**, and **topology changes**, while maintaining the efficiency of FFT-based operations.
 
 > This reimplementation refactors the official DAFNO codebase using PyTorch Lightning for better modularity, readability, and experiment tracking.
 > 
