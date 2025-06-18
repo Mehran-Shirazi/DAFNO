@@ -8,15 +8,15 @@ This repository provides a modular and scalable **[PyTorch Lightning](https://ww
 >
 ---
 
-## 🧠 What is DAFNO?
+## 🔧 What is DAFNO?
 
 DAFNO (Domain-Agnostic Fourier Neural Operator) is a neural operator that solves PDEs on **non-rectangular, time-evolving, and topologically dynamic domains**. It achieves this by introducing a **smoothed characteristic function** into the Fourier operator, which enables FFT-based convolution even in geometrically irregular settings.
 
 ### Key Features
-- ✔️ Domain-agnostic surrogate modeling with **explicit geometric encoding**
-- ✔️ Compatible with **irregular grids**, **voids**, and **fractures**
-- ✔️ High generalizability to **unseen geometries and load conditions**
-- ✔️ Efficient via **FFT acceleration** and **integral kernel structure**
+- Domain-agnostic surrogate modeling with **explicit geometric encoding**
+- Compatible with **irregular grids**, **voids**, and **fractures**
+- High generalizability to **unseen geometries and load conditions**
+- Efficient via **FFT acceleration** and **integral kernel structure**
 
 ---
 
@@ -24,15 +24,12 @@ DAFNO (Domain-Agnostic Fourier Neural Operator) is a neural operator that solves
 
 This PyTorch Lightning-based version includes:
 
-- 🧩 Clean and modular training loop
-- 📊 Integrated logging and checkpointing
-- 🎯 Support for **custom loss functions** (e.g., masked MAE)
-- 🧱 Ready for **structured and unstructured** grid inputs
-- 🧪 Includes **elasticity** dataset pipeline and demo
+- Clean and modular training loop
+- Integrated logging and checkpointing
+- Ready for **structured and unstructured** grid inputs
+- Includes **elasticity** dataset pipeline and demo
 
 ---
-
-## 🚀 Getting Started
 
 ### 📦 Requirements
 
