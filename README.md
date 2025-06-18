@@ -40,10 +40,9 @@ This PyTorch Lightning-based version includes:
 
 - `pytorch >= 1.8.0`
 - `pytorch-lightning >= 2.0.0`
-- `h5py`
-- `numpy`
-- `matplotlib`
-- `scipy`
+- `h5py`, `numpy`, `matplotlib`, `scipy`
 
+<!---
 ```bash
 pip install -r requirements.txt
+-->
